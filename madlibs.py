@@ -26,4 +26,4 @@ I have heard that the {Color1} lake is great for {Verb3}. Then we will \
 {Color} {Animal2} while hiking, I am going to bring it home as a pet! At night we will tell \
 {Number2} {sillyWord} stories and roast {Noun3} around the campfire!!"
 
-print(madlib)
+print(madlib)#....
