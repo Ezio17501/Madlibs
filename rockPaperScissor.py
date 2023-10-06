@@ -1,11 +1,11 @@
 import random
 
 def play():
-    user = input("'r' for rock, 'p' for paper, 's' for scissor")
+    user = input("What's your choice? 'r' for rock, 'p' for paper, 's' for scissor\n")
     computer = random.choice(['r','p','s'])
 
     if user == computer:
-        return "tie"
+        return "It\'s a tie"
     if is_win(user, computer):
         return "You won!!"
     
